@@ -52,6 +52,7 @@
       height: 300px;
       object-fit: cover;
       display: block;
+      border-bottom: 1px solid #eee;
     }
 
     .info {
@@ -86,31 +87,37 @@
       font-weight: bold;
       font-size: 16px;
     }
-  </style>
 
+    h1.section-title {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 28px;
+      color: #0a0a23;
+    }
+  </style>
   <!-- Etiquetas Open Graph para WhatsApp -->
   <meta property="og:title" content="Venta de cosas usadas">
   <meta property="og:description" content="Vendemos cosas usadas">
   <meta property="og:image" content="https://github.com/niqmen/venta-usados/blob/main/Venta_de_cosas_usadas.jpg?raw=true">
   <meta property="og:url" content="https://niqmen.github.io/venta-usados/">
   <meta property="og:type" content="website">
-  <!-- Twitter Card -->
+  <!-- Twitter Card (opcional, mejora compatibilidad) -->
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <header class="header">
     <h1>Venta de Garaje Solidaria en Manchay – Ayúdanos a Pintar el Portón de la Iglesia Luz del Evangelio</h1>
-    <h2>Entrega previa coordinación los sábados en el local de la Iglesia Luz del Evangelio de Manchay</h2>
-    <h2>Contacto vía Whatsapp 910056725</h2>
+    <h2>Entrega previa coordinacion los dias sabados en el local de la Iglesia Luz del Evangelio de Manchay</h2>
+    <h2>Contacto via Whatsapp 910056725</h2>
     <h3>Av. Víctor Malásquez Huertos de Manchay</h3>
   </header>
 
+  <!-- Sección de imágenes -->
   <div class="gallery">
-    <!-- EJEMPLOS DE IMÁGENES -->
     <div class="gallery-item">
       <img src="corral_bebe.jpg" alt="Corral para bebe">
       <div class="info">
-        <span class="description">Corral para bebé</span>
+        <span class="description">Corral para bebe</span>
         <div class="prices">
           <span class="price-original">S/90.00</span>
           <span class="price-offer">S/30.00</span>
@@ -129,18 +136,50 @@
       </div>
     </div>
 
-    <!-- EJEMPLOS DE VIDEOS -->
+    <div class="gallery-item">
+      <img src="silla_mecedora.jpg" alt="silla mecedora">
+      <div class="info">
+        <span class="description">Silla mecedora</span>
+        <div class="prices">
+          <span class="price-original">S/80.00</span>
+          <span class="price-offer">S/35.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="andador_bebe.jpg" alt="Andador para bebe">
+      <div class="info">
+        <span class="description">Andador para bebe</span>
+        <div class="prices">
+          <span class="price-original">S/80.00</span>
+          <span class="price-offer">S/25.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="coche.jpeg" alt="Coche para bebe">
+      <div class="info">
+        <span class="description">Coche para bebe</span>
+        <div class="prices">
+          <span class="price-original">S/75.00</span>
+          <span class="price-offer">S/50.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de videos -->
+  <h1 class="section-title">Mis Videos</h1>
+  <div class="gallery">
     <div class="gallery-item">
       <video controls>
         <source src="andador.mp4" type="video/mp4">
         Tu navegador no puede reproducir este video.
       </video>
       <div class="info">
-        <span class="description">Andador para bebé (video)</span>
-        <div class="prices">
-          <span class="price-original">S/80.00</span>
-          <span class="price-offer">S/25.00</span>
-        </div>
+        <span class="description">Video del Andador</span>
       </div>
     </div>
 
@@ -150,11 +189,17 @@
         Tu navegador no puede reproducir este video.
       </video>
       <div class="info">
-        <span class="description">Coche para bebé (video)</span>
-        <div class="prices">
-          <span class="price-original">S/75.00</span>
-          <span class="price-offer">S/50.00</span>
-        </div>
+        <span class="description">Video del Coche</span>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <video controls>
+        <source src="coche_mesedora.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+      </video>
+      <div class="info">
+        <span class="description">Video del Coche Mecedora</span>
       </div>
     </div>
 
@@ -164,11 +209,17 @@
         Tu navegador no puede reproducir este video.
       </video>
       <div class="info">
-        <span class="description">Corral para bebé (video)</span>
-        <div class="prices">
-          <span class="price-original">S/90.00</span>
-          <span class="price-offer">S/30.00</span>
-        </div>
+        <span class="description">Video del Corral</span>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <video controls>
+        <source src="mesedora.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+      </video>
+      <div class="info">
+        <span class="description">Video de la Mecedora</span>
       </div>
     </div>
   </div>
